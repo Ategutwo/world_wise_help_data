@@ -1,0 +1,22 @@
+{
+  "name": "worldwisedata",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "json-server --watch data/cities.json"
+  },
+  "dependencies": {
+    "json-server": "^0.17.3",
+    "leaflet": "^1.9.3",
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "eslint": "^8.36.0",
+    "eslint-config-react-app": "^7.0.1",
+    "vite": "^4.2.0",
+    "vite-plugin-eslint": "^1.8.1"
+  }
+}
